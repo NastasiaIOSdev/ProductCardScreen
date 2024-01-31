@@ -19,7 +19,7 @@ struct ButtonView: View {
                 .padding()
                 .foregroundStyle(.white)
                 .overlay(RoundedRectangle(cornerRadius: 25)
-                    .stroke(Color.specialGreen, lineWidth: 4))
+                    .stroke(Color.specialGreen, lineWidth: 3))
         }
     }
 }

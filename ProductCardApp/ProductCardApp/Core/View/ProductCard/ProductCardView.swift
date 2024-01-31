@@ -15,6 +15,7 @@ struct ProductCardView: View {
                 NavigationInProductCardView()
             }.padding(.leading, 16)
                 .padding(.trailing, 16)
+                .padding(.top, 16)
                 .padding(.bottom, 2)
             
             Divider()
