@@ -11,6 +11,7 @@
 		2E3427362B6A9A22004231C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3427352B6A9A22004231C0 /* ContentView.swift */; };
 		2E3427382B6A9A2B004231C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3427372B6A9A2B004231C0 /* Assets.xcassets */; };
 		2E34273B2B6A9A2B004231C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E34273A2B6A9A2B004231C0 /* Preview Assets.xcassets */; };
+		2E3427422B6A9B61004231C0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3427412B6A9B61004231C0 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2E3427352B6A9A22004231C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E3427372B6A9A2B004231C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E34273A2B6A9A2B004231C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E3427412B6A9B61004231C0 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2E3427332B6A9A22004231C0 /* ProductCardAppApp.swift */,
 				2E3427352B6A9A22004231C0 /* ContentView.swift */,
+				2E3427432B6A9B67004231C0 /* Extensions */,
 				2E3427372B6A9A2B004231C0 /* Assets.xcassets */,
 				2E3427392B6A9A2B004231C0 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				2E34273A2B6A9A2B004231C0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E3427432B6A9B67004231C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E3427412B6A9B61004231C0 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				2E3427362B6A9A22004231C0 /* ContentView.swift in Sources */,
 				2E3427342B6A9A22004231C0 /* ProductCardAppApp.swift in Sources */,
+				2E3427422B6A9B61004231C0 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
