@@ -12,6 +12,12 @@
 		2E3427382B6A9A2B004231C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3427372B6A9A2B004231C0 /* Assets.xcassets */; };
 		2E34273B2B6A9A2B004231C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E34273A2B6A9A2B004231C0 /* Preview Assets.xcassets */; };
 		2E3427422B6A9B61004231C0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3427412B6A9B61004231C0 /* Color.swift */; };
+		2E34274D2B6A9D1C004231C0 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E34274C2B6A9D1C004231C0 /* ProductCardView.swift */; };
+		2E34274F2B6A9D37004231C0 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E34274E2B6A9D37004231C0 /* CatalogView.swift */; };
+		2E3427512B6A9D57004231C0 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3427502B6A9D57004231C0 /* CartView.swift */; };
+		2E3427532B6A9D66004231C0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3427522B6A9D66004231C0 /* AccountView.swift */; };
+		2E3427552B6A9D9B004231C0 /* MainTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3427542B6A9D9B004231C0 /* MainTabbarView.swift */; };
+		2E3427572B6A9FB4004231C0 /* NavigationInProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3427562B6A9FB4004231C0 /* NavigationInProductCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +27,12 @@
 		2E3427372B6A9A2B004231C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E34273A2B6A9A2B004231C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E3427412B6A9B61004231C0 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2E34274C2B6A9D1C004231C0 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		2E34274E2B6A9D37004231C0 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		2E3427502B6A9D57004231C0 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		2E3427522B6A9D66004231C0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		2E3427542B6A9D9B004231C0 /* MainTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarView.swift; sourceTree = "<group>"; };
+		2E3427562B6A9FB4004231C0 /* NavigationInProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationInProductCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 		2E3427322B6A9A22004231C0 /* ProductCardApp */ = {
 			isa = PBXGroup;
 			children = (
+				2E3427442B6A9C47004231C0 /* Core */,
 				2E3427332B6A9A22004231C0 /* ProductCardAppApp.swift */,
 				2E3427352B6A9A22004231C0 /* ContentView.swift */,
 				2E3427432B6A9B67004231C0 /* Extensions */,
@@ -76,6 +89,75 @@
 				2E3427412B6A9B61004231C0 /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2E3427442B6A9C47004231C0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2E3427452B6A9C5B004231C0 /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2E3427452B6A9C5B004231C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E3427482B6A9C99004231C0 /* Tabbar */,
+				2E3427462B6A9C63004231C0 /* ProductCard */,
+				2E34274A2B6A9CBA004231C0 /* Catalog */,
+				2E3427492B6A9CAE004231C0 /* Cart */,
+				2E34274B2B6A9CC3004231C0 /* Account */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E3427462B6A9C63004231C0 /* ProductCard */ = {
+			isa = PBXGroup;
+			children = (
+				2E34274C2B6A9D1C004231C0 /* ProductCardView.swift */,
+				2E3427472B6A9C85004231C0 /* Components */,
+			);
+			path = ProductCard;
+			sourceTree = "<group>";
+		};
+		2E3427472B6A9C85004231C0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2E3427562B6A9FB4004231C0 /* NavigationInProductCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2E3427482B6A9C99004231C0 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				2E3427542B6A9D9B004231C0 /* MainTabbarView.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		2E3427492B6A9CAE004231C0 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				2E3427502B6A9D57004231C0 /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		2E34274A2B6A9CBA004231C0 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				2E34274E2B6A9D37004231C0 /* CatalogView.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		2E34274B2B6A9CC3004231C0 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				2E3427522B6A9D66004231C0 /* AccountView.swift */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +230,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3427512B6A9D57004231C0 /* CartView.swift in Sources */,
 				2E3427362B6A9A22004231C0 /* ContentView.swift in Sources */,
 				2E3427342B6A9A22004231C0 /* ProductCardAppApp.swift in Sources */,
+				2E3427552B6A9D9B004231C0 /* MainTabbarView.swift in Sources */,
+				2E34274D2B6A9D1C004231C0 /* ProductCardView.swift in Sources */,
+				2E3427532B6A9D66004231C0 /* AccountView.swift in Sources */,
 				2E3427422B6A9B61004231C0 /* Color.swift in Sources */,
+				2E3427572B6A9FB4004231C0 /* NavigationInProductCardView.swift in Sources */,
+				2E34274F2B6A9D37004231C0 /* CatalogView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
