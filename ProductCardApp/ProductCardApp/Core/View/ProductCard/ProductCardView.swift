@@ -37,7 +37,17 @@ struct ProductCardView: View {
                         .resizable()
                         .frame(width: 250, height: 250)
                 }
-            }
+                
+                RaitingProductRowView()
+                    .padding(.bottom, 16)
+                
+                Text("Чай Зеленый SPAR с Жасмином 150 г")
+                    .font(.system(size: 25, weight: .bold, design: .rounded))
+                    .padding(.bottom, 16)
+                
+            }.padding(.leading, 16)
+                .padding(.trailing, 16)
+                .padding(.bottom, 16)
         }
         
     }
