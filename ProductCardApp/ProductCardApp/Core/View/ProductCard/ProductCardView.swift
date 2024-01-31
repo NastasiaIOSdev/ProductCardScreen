@@ -45,6 +45,20 @@ struct ProductCardView: View {
                     .font(.system(size: 25, weight: .bold, design: .rounded))
                     .padding(.bottom, 16)
                 
+                CountryFlagRowView()
+                    .padding(.bottom, 16)
+                
+                Text("Описание")
+                    .font(.system(size: 18, weight: .bold, design: .rounded))
+                    .padding(.bottom, 5)
+                Text("Жасминовый чай вскружит голову богатством вкуса и аромата. Вы будто открываете для себя заново любимую, но давно забытую мелодию. Чем дольше «слушаете», тем крепче становится её вкус. Сначала вы чувствуете легкие цветочные переливы, затем уже яркие растительные аккорды.")
+                    .font(.system(size: 16, design: .rounded))
+                    .padding(.bottom, 16)
+                Text("Основные характеристики")
+                    .font(.system(size: 18, weight: .bold, design: .rounded))
+                    .padding(.bottom, 8)
+                
+                
             }.padding(.leading, 16)
                 .padding(.trailing, 16)
                 .padding(.bottom, 16)
