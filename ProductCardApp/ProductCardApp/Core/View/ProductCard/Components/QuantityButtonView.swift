@@ -9,7 +9,22 @@ import SwiftUI
 
 struct QuantityButtonView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            VStack(alignment: .leading) {
+                HStack{
+                    Text("55.9")
+                        .font(.system(size: 30, weight: .bold, design: .rounded))
+                    Text("₽/кг")
+                        .font(.system(size: 18, design: .rounded))
+                }
+                Text("199,0")
+                    .font(.system(size: 18, design: .rounded))
+                    .foregroundStyle(.gray)
+                    .strikethrough(true, color: Color.gray)
+            }
+            Spacer()
+            PriceButtonView()
+        }
     }
 }
 

@@ -58,6 +58,7 @@ struct ProductCardView: View {
                     .font(.system(size: 18, weight: .bold, design: .rounded))
                     .padding(.bottom, 8)
                 
+                MainCharacteristicsProductView()
                 
             }.padding(.leading, 16)
                 .padding(.trailing, 16)

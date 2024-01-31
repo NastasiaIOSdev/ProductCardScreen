@@ -9,7 +9,31 @@ import SwiftUI
 
 struct PriceButtonView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            print("button is pressed!")
+        } label: {
+            HStack(spacing: 25) {
+                Image(systemName: "minus")
+                VStack{
+                    Text("1 шт")
+                        .lineLimit(1)
+                        .font(.system(size: 18, weight: .bold, design: .rounded))
+                    Text("120,0 ₽")
+                        .lineLimit(1)
+                        .font(.system(size: 14, design: .rounded))
+                }
+                Image(systemName: "plus")
+            }
+            .foregroundStyle(Color.white)
+            .padding(.top, 10)
+            .padding(.bottom, 10)
+            .padding(.leading, 15)
+            .padding(.trailing, 15)
+            .background(Color.specialGreen)
+            .clipShape(RoundedRectangle(cornerRadius: 100))
+            
+        }
+
     }
 }
 

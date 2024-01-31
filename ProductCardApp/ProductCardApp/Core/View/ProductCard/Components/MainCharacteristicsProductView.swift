@@ -29,6 +29,9 @@ struct MainCharacteristicsProductView: View {
             ReviewsCarouselView()
                 .padding(.bottom, 10)
             ButtonView()
+                .padding(.bottom, 12)
+            SegmentControlView()
+                .padding(.bottom, 10)
         }
     }
 }

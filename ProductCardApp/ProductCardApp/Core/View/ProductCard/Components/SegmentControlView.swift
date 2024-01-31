@@ -21,6 +21,7 @@ struct SegmentControlView: View {
             }
             .pickerStyle(SegmentedPickerStyle())
             .padding(.bottom, 10)
+            QuantityButtonView()
         }
     }
 }

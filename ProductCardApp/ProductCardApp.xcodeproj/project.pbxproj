@@ -26,6 +26,8 @@
 		2E3427632B6AAE66004231C0 /* ReviewsCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3427622B6AAE66004231C0 /* ReviewsCarouselView.swift */; };
 		2E3427652B6AB41A004231C0 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3427642B6AB41A004231C0 /* ButtonView.swift */; };
 		2E3427672B6AB5DC004231C0 /* SegmentControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3427662B6AB5DC004231C0 /* SegmentControlView.swift */; };
+		2E3427692B6AB925004231C0 /* QuantityButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3427682B6AB925004231C0 /* QuantityButtonView.swift */; };
+		2E34276B2B6ABA74004231C0 /* PriceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E34276A2B6ABA74004231C0 /* PriceButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		2E3427622B6AAE66004231C0 /* ReviewsCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsCarouselView.swift; sourceTree = "<group>"; };
 		2E3427642B6AB41A004231C0 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		2E3427662B6AB5DC004231C0 /* SegmentControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlView.swift; sourceTree = "<group>"; };
+		2E3427682B6AB925004231C0 /* QuantityButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityButtonView.swift; sourceTree = "<group>"; };
+		2E34276A2B6ABA74004231C0 /* PriceButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 				2E3427622B6AAE66004231C0 /* ReviewsCarouselView.swift */,
 				2E3427642B6AB41A004231C0 /* ButtonView.swift */,
 				2E3427662B6AB5DC004231C0 /* SegmentControlView.swift */,
+				2E3427682B6AB925004231C0 /* QuantityButtonView.swift */,
+				2E34276A2B6ABA74004231C0 /* PriceButtonView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -254,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E34276B2B6ABA74004231C0 /* PriceButtonView.swift in Sources */,
 				2E3427512B6A9D57004231C0 /* CartView.swift in Sources */,
+				2E3427692B6AB925004231C0 /* QuantityButtonView.swift in Sources */,
 				2E3427362B6A9A22004231C0 /* ContentView.swift in Sources */,
 				2E3427652B6AB41A004231C0 /* ButtonView.swift in Sources */,
 				2E3427342B6A9A22004231C0 /* ProductCardAppApp.swift in Sources */,
