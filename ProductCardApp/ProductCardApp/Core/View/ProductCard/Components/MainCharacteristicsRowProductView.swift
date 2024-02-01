@@ -13,14 +13,15 @@ struct MainCharacteristicsRowProductView: View {
     let infoInRow: String
     
     var body: some View {
-        HStack(alignment: .top) {
+        HStack(alignment: .top, spacing: 20) {
             Text(nameRow)
-                .font(.system(size: 16, design: .rounded))
-            Spacer()
+            Text("......................................................").lineLimit(1).foregroundStyle(.gray)
+            
             Text(infoInRow)
                 .frame(alignment: .trailing)
         }
         .padding(.bottom, 16)
+        .font(.system(size: 16, design: .rounded))
     }
 }
 
