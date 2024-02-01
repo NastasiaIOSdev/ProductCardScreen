@@ -18,7 +18,7 @@ struct MainCharacteristicsRowProductView: View {
                 .font(.system(size: 16, design: .rounded))
             Spacer()
             Text(infoInRow)
-                .frame(width: .infinity, alignment: .trailing)
+                .frame(alignment: .trailing)
         }
         .padding(.bottom, 16)
     }
